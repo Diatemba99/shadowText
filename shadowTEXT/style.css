@@ -1,0 +1,43 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    background: turquoise;
+
+}
+
+.con
+{
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.sh,.text
+{
+    font-size: 60px;
+    position: relative;
+    font-family: 'Montserrat',sans-serif;
+}
+
+.sh
+{
+    color: rgba(5,5,5, 0.3);
+    transform-origin: 0 0;
+   transform: rotate(-30deg) skew(30deg) scaleY(1.6);
+  top: 287px;
+       left: 57px;
+}
+.text
+{
+    color: #e2e2e2;
+    transform-origin: 0 0;
+    transform: rotate(-30deg) skew(-30deg);
+    top: 200px;
+    left: 150px;
+
+}
